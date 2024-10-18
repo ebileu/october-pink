@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+// ==================================================================================
+.header-container{
+    height: 118px;
+
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-header-1{
+    display: flex;
+    align-items: center;
+}
+
+.section-header-1 h1{
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+    margin-left: 5px;  
+}
+
+.nav-header{
+    width: 600px;
+}
+
+.nav-header ul{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    font-size: 28px;
+    color: white;
+}
+// ==================================================================================
+
+.container-alerta{
+    height: 377px;
+
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-alerta img{
+    width: 365px;
+    height: 355px;
+    top: -170px;
+    left: 145px;
+}
+
+.container-p-1{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.container-conscientizacao{
+    height: 262px;
+    background-color: #FF69B4;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-p-2{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.container-dicas{
+    height: 426px;
+
+    background-color: #FFD9EC;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+// ==================================================================================
+
+.footer-container{
+    background-color: #FF69B4;
+
+    height: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-p{
+    font-size: 20px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
